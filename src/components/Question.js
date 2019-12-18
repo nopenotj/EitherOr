@@ -1,11 +1,3 @@
-/**
- * Sample React Native App
- * https://github.com/facebook/react-native
- *
- * @format
- * @flow
- */
-
 import React, {Component} from 'react';
 import {Platform, StyleSheet, View, Button, Dimensions, TouchableOpacity, Text} from 'react-native';
 import colors from './colors.js'
@@ -37,8 +29,6 @@ let {height,width} = Dimensions.get('window')
 const barWidth = width*0.7
 
 type Props = {};
-
-
 
 
 export default class App extends Component<Props> {
