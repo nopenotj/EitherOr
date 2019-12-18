@@ -1,4 +1,4 @@
-package com.eitheror;
+package com.app;
 
 import android.app.Application;
 
